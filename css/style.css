@@ -132,3 +132,24 @@ img {
     width: 90% ;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100% ;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .row .col{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .col .card{
+        margin-bottom: 2rem;
+    }
+    
+}
